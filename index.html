@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Movie Guesser Game</title>
+    <link rel="stylesheet" href="movie.css">
+</head>
+<body>
+  <div class="title">🎬 Movie Guesser Game</div>
+  
+  <div class="welcome">Welcome to the Game! Try to guess my favourite movie 🎥</div>
+  <div class="welcome" style="font-size: 1rem;">HINT: A POPULAR MOVIE OF { WILL-SMITH } FROM 2006 </div>
+  
+  <div class="game-container" id="game">
+    <input type="text" id="movieGuess" placeholder="Enter your guess...">
+    <button onclick="checkGuess()">Guess</button>
+    <div class="message" id="message"></div>
+  </div>
+  
+<script src="movie.js"></script>
+</body>
+</html>
